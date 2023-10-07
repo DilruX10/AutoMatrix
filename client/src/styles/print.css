@@ -1,0 +1,17 @@
+.ptable{
+    width: 100%;
+    margin-left: 3%;
+    border: 1px solid black;
+    display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+.pth {
+    padding-right: 50px;
+  }
+
+  .ptd {
+    padding-right: 50px;
+  }
+  

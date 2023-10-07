@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 1rem;
+}
+
+.home,
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-right: 100px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #737373;
+  font-weight: bold;
+}
+
+.system-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #252b42;
+}
+
+.login-btn-join {
+  color: white;
+  background-color: #4e974e;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.login-btn {
+  color: black;
+  background-color: transparent;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.login-btn:hover {
+  opacity: 0.8;
+  background-color: rgb(78, 151, 78);
+  color: #fff;
+}

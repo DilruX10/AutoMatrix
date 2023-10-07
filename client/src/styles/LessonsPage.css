@@ -1,0 +1,69 @@
+.title {
+    margin-top: 2%;
+    font-size: 50px;
+    text-align: center; 
+  }
+
+/* typewriter animation */
+
+.description{
+  text-align: center;
+  font-size: 1.6rem;
+  overflow: hidden;/* Ensures the content is not revealed until the animation */
+  white-space: nowrap;/* Keeps the content on a single line */
+  margin: 0 auto;/* Gives that scrolling effect as the typing happens */
+  letter-spacing: .17em;/* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+}
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%
+  }
+}
+
+/* Card Border Animation - Start */
+
+.courseCard:before,
+.courseCard:after{
+  position: absolute;
+  content: "";
+  transition: all .25s;
+}
+
+.courseCard:before{
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  width: 0%;
+  height: 0%;
+  left: -10px;
+  bottom: -10px;
+}
+
+.courseCard:after{
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  width: 0%;
+  height: 0%;
+  top: -10px;
+  right: -10px;
+}
+
+.courseCard:hover:before{
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+.courseCard:hover:after{
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+/* Card Border Animation - End */

@@ -1,0 +1,29 @@
+.homepage-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  background-color: #fafafa;
+}
+
+.homepage-text {
+  flex: 1;
+  padding-right: 2rem;
+  background-color: #fafafa;
+  color: #252b42;
+}
+.homepage-para {
+  color: #737373;
+}
+.homepage-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.homepage-image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
